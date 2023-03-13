@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="page">
+   <head>
+      <title>Getting Started with Cirrus</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <meta charset="UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge;"/>
+      <link href="https://unpkg.com/cirrus-ui" type="text/css" rel="stylesheet"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous" ></script> 
+   </head>
+ <body>
+    <div class="header header-fixed u-unselectable header-animated">
+        <div class="header-brand">
+           <li role="menu-item"><a href="index.html">Главная</a></li>  
+        </div>
+        <div class="header-nav" id="header-menu">
+            <div class="nav-left">
+                <div class="nav-item has-sub toggle-hover" id="dropdown">
+                    <a class="nav-dropdown-link">Парсинг</a>
+                    <ul class="dropdown-menu dropdown-animated" role="menu">
+                        <li role="menu-item"><a href="par.html">О парсинге</a></li>
+                        <li role="menu-item"><a href="par.st.html">Что такое парсинг сайта</a></li>
+                        <li role="menu-item"><a href="z.par.html">Зачем парсинг нужен и когда его используют</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav" id="header-menu">
+            <div class="nav-left">
+                <div class="nav-item has-sub toggle-hover" id="dropdown">
+                    <a class="nav-dropdown-link">7 способов защитить сайт от парсинга и как их обойти</a>
+                    <ul class="dropdown-menu dropdown-animated" role="menu">
+                        <li role="menu-item"><a href="1.html">Бан по IP адресу</a></li>
+                        <li role="menu-item"><a href="2.html">Использование учетных записей</a></li>
+                        <li role="menu-item"><a href="3.html">Использование CAPTCHA</a></li>
+                        <li role="menu-item"><a href="4.html">Использование сложной JavaScript логики</a></li>
+                        <li role="menu-item"><a href="5.html">Динамическое изменение структуры страницы</a></li>
+                        <li role="menu-item"><a href="6.html">Ограничение частоты запросов и объемов загружаемых данных</a></li>
+                        <li role="menu-item"><a href="7.html">Отображение важных данных в виде картинок</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </div>
+<div>
+    <h2>Использование CAPTCHA</h2> 
+</div>  
+<h2>Использование CAPTCHA</h2>
+<p class="u-text-break"></p>Это тоже распространенный метод защиты данных о парсинга. Здесь пользователю для доступа к данным сайта предлагается ввести каптчу (CAPTCHA). Существенным недостатком этого способа можно считать неудобство пользователя в необходимости ввода каптчи. Поэтому этот метод лучше всего применим в системах, где доступ к данным осуществляется отдельными запросами и не очень не часто.</p>
+<p class="u-text-break"></p>Примером использования каптчи для защиты от автоматического создания запросов могут служить сервисы проверки позиции сайта в поисковой выдаче (например http://smallseotools.com/keyword-position/).</p>
+<p class="u-text-break"></p>Обходится каптча посредством программ и сервисов по ее распознаванию. Они делятся на две основные категории: автоматическое распознавание без участия человека (OCR, например программа GSA Captcha Breaker) и распознавания с помощью человека (когда где-то в Индии сидят люди и в режиме онлайн обрабатывают запросы на распознание картинок, например может служить сервис Bypass CAPTCHA). Человеческое распознание обычно более эффективно, но оплата в данном случае происходит за каждую каптчу, а не один раз, как при покупке программы.</p>
+<img src="https://seotemple.ru/files/capcha.jpg" alt="Картинка">
+<div id="footer">
+    &copy; Адрес
+   </div>
+ </body>
+</html>
